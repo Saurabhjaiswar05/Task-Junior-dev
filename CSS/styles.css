@@ -1,0 +1,550 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.middle ul{
+    display: flex;
+   
+}
+
+.middle ul li{
+   
+    list-style-type: none;
+}
+
+.middle ul li a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: black;
+}
+
+.nav-btn button{
+    padding: 5px 15px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgb(10, 158, 216) ;
+}
+
+.nav-btn .log{
+    color: rgb(10, 158, 216);
+    background-color: white;
+}
+
+.nav-btn .reg{
+    background-color:rgb(10, 158, 216) ;
+    color: white;
+}
+
+
+/* this is first section */
+
+.section1{
+    position: relative;
+    
+}
+.section1-img img{
+    width: 100%;
+    height: 530px;
+   
+}
+.section1-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.join{
+    padding: 10px 15px;
+    color: white;
+    background-color:rgb(10, 158, 216);
+    outline: none;
+    border: 1px solid rgb(10, 158, 216);
+    border-radius: 10px;
+}
+
+/* section2 */
+.sec-head{
+    font-size: 30px;
+    margin-left: 140px;
+    padding-top: 70px;
+    margin-top: -10px;
+}
+
+.section2{
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.more{
+    padding: 5px 15px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgb(10, 158, 216) ;
+    color: white;
+    background-color:rgb(10, 158, 216) ;
+    border-radius: 5px;
+}
+
+/* new section 3 */
+.section3{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.topper{
+    text-align: center;
+}
+
+.section3-split{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-img{
+    width: 450px;
+    height: 350px;
+}
+
+/* section 4 */
+.section4{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.section4-topper{
+    text-align: center;
+}
+
+.head4{
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.para4{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.section4-split{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    border: 1px solid rgb(221, 211, 211);
+    width: 240px;
+    text-align: center;
+}
+
+.box-img{
+    width: 240px;
+    height: 150px;
+}
+
+/* signup section */
+
+.section5{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form > input{
+    width: 200px;
+    padding: 8px 10px;
+    margin-left: 10px;
+    outline: none;
+    border: 1px solid rgb(214, 208, 208);
+    margin-top: 10px;
+}
+
+form > span{
+        margin-left: 10px;
+}
+
+.devider{
+    display: flex;
+}
+
+.devider input{
+    width: 200px;
+    padding: 8px 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid rgb(214, 208, 208);
+}
+
+.devider span{
+    margin-left: 10px;
+}
+
+.btm{
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+.long{
+    width: 438px;
+}
+
+.sec5-btn{
+    background-color: rgb(10, 158, 216);
+    color: white;
+    outline: none;
+    border: 1px solid rgb(10, 158, 216);
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+input::placeholder{
+    font-size: 16px;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+} 
+
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+   
+}
+
+.space i{
+   padding-right: 15px;
+}
+
+.footer-split{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.right-split{
+    display: flex;
+    align-items: center;
+}
+.margin1{
+    margin-right: 30px;
+}
+.margin1 p a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.mgr2{
+    margin-right: 80px;
+}
+.types{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.log5{
+    background-color: white;
+    color: rgb(10, 158, 216);
+    outline: none;
+    border: 1px solid rgb(10, 158, 216);
+    border-radius: 5px;
+    padding: 6px 18px;
+    cursor: pointer;
+}
+
+.reg5{
+    background-color: rgb(10, 158, 216);
+    color: white;
+    outline: none;
+    border: 1px solid rgb(10, 158, 216);
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+hr{
+    color: rgb(173, 167, 167);
+    width: 90%;
+}
+
+.footer-sym{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.symbol{
+    display: flex;
+    align-items: center;
+}
+
+.symbol i{
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+    background-color: rgb(97, 96, 96);
+   padding: 10px 10px;
+   border-radius: 50%;
+}
+
+/*  media query */
+
+@media screen and (max-width: 910px){
+        .section3-split{
+            display: flex;
+            flex-direction: column;
+        }
+}
+
+@media screen and (max-width: 830px){
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 790px){
+    .section4-split{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    .box{
+        margin-bottom: 25px;
+        width: 350px;
+    }
+    .box h3{
+        font-size: 25px;
+    }
+    .box p{
+        font-size: 20px;
+    }
+    
+    .box-img{
+        width: 350px;
+        height: 200px;
+    }
+    .para4{
+        font-size: 18px;
+    }
+    .head4{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:662px) {
+    .footer-split{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-sym{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-split{
+        display: flex;
+        flex-direction: column;
+    }
+    .margin1 h3{
+        font-size: 25px;
+    }
+    .margin1 p a{
+        font-size: 20px;
+    }
+    .margin1{
+        text-align: center;
+        
+    }
+    .types{
+        margin-left: 100px;
+    }
+    .space{
+        font-size: 50px;
+    }
+    .reg5{
+        font-size: 30px;
+    }
+    .log5{
+        font-size: 30px;
+        padding-right: 33px;
+    }
+
+    .fpp{
+        font-size: 25px;
+    }
+    .symbol i{  
+        font-size: 50px;   
+    }
+
+
+}
+
+@media screen and (max-width:574px) {
+    .btm{
+        font-size: 35px;
+    }
+    .devider input::placeholder{
+        font-size: 23px;
+    }
+    .form input::placeholder{
+        font-size: 23px;
+    }
+    .devider input{
+        padding: 15px 15px;
+    }
+    .form input{
+        padding: 15px 15px;
+    }
+    .sec5-btn{
+        font-size: 30px;
+    }
+    .form-container{
+        border: none;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .sec-head{
+        margin-left: 30px;
+        font-size: 35px;
+    }
+    .all h3{
+        font-size: 30px;
+    }
+    .all p{
+        font-size: 18px;
+    }
+    .all button{
+        font-size: 25px;
+    }
+    .btm{
+       
+       left: 0;
+    }
+    
+    .form-container {
+        width: 90%; 
+        margin: 10px auto; 
+        padding: 2px; 
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .devider input::placeholder{
+        font-size: 20px;
+    }
+    .form input::placeholder{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .devider input{
+        padding: 15px 0;
+    }
+    .devider input{
+        width: 190px;
+    }
+    .form input{
+        padding: 15px 0;
+    }
+    .sec5-btn{
+        font-size: 30px;
+    }
+    .form-container{
+        border: none;
+    }
+    .long{
+        width: 400px;
+    }
+
+    .section1-text h1{
+        font-size: 40px;
+    }
+    .join{
+        font-size: 30px;
+    }
+}
+
+/* for navbar */
+
+@media screen and (max-width:480px) {
+    .nav-btn{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middle li a{
+        font-size: 24px;
+    }
+
+    .middle{
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    
+}
